@@ -7,11 +7,11 @@
 
 <body>
     <script>
-        numbers = prompt("Enter");
-        console.log(numbers);
+        const numbers = prompt('Enter');
+        
         separatedArray = numbers.split(',');
-        var arr = [],frequency = []; 
-        var prev;
+        let arr = [],frequency = []; 
+        let prev;
         separatedArray.sort();
         for(let i=0;i<separatedArray.length;i++)
         {
