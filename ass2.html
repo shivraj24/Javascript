@@ -23,8 +23,8 @@
         <script type="text/javascript">
 
         const calculate = (operation) =>{
-            var num1,num2;
-            var res;
+            let numberOne,numberTwo;
+            let result;
 
             num1 = Number(document.calculator.in1.value);
             num2 = Number(document.calculator.in2.value);
@@ -32,12 +32,12 @@
             switch(operation)
             {
                 case 1:
-                document.calculator.result.value = num1+num2;
-                break;
+                    document.calculator.result.value = num1+num2;
+                    break;
                 
                 case 2:
-                document.calculator.result.value = num1-num2;
-                break;
+                    document.calculator.result.value = num1-num2;
+                    break;
 
             }
            
